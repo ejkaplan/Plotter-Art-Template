@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "plotter-art-template"
+version = "0.1.0"
+description = "Template for Mx. El's students using elkplot to make art (and learn Python)"
+authors = ["El Kaplan <kaplan.el.j@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+elkplot = {git = "https://github.com/ejkaplan/elkplot.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
